@@ -1,1 +1,136 @@
+@page {
+    size: A4;
+    margin: 20mm;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    width: 100%;
+    padding: 20mm;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, p {
+    margin: 0 0 10px;
+    color: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+table td {
+    vertical-align: top;
+}
+
+.studentNameandDate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Learningintentions {
+    font-weight: normal;
+}
+
+.Wordbank {
+    font-weight: normal;
+}
+
+.key-ideas-table th:nth-child(1),
+.key-ideas-table td:nth-child(1) {
+    width: 20%;
+}
+
+.key-ideas-table th:nth-child(2),
+.key-ideas-table td:nth-child(2) {
+    width: 80%;
+}
+
+.notes {
+    border: 1px dashed #888;
+    height: 200px;
+    margin: 5px 0;
+    padding: 5px;
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+.instruction-text {
+    color: #888;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.KeyIdeasHeading {
+    font-weight: bold;
+}
+
+.building-understanding-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.building-understanding-table th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.building-understanding-table td {
+    vertical-align: top;
+    padding: 15px;
+    border: 1px solid #000;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.question {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: normal;
+}
+
+.answer-space {
+    margin-top: 10px;
+    height: 150px;
+    border: 1px dashed #888;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.answer-space span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+}
+
+.sub-question-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+}
